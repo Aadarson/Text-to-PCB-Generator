@@ -1,0 +1,814 @@
+--- Request ---
+Prompt: create an remote control base pcb board
+Parsed: {'original_text': 'create an remote control base pcb board', 'components': [], 'connections': []}
+--- Request ---
+Prompt: create an remote control base pcb board
+Parsed: {'original_text': 'create an remote control base pcb board', 'components': [], 'connections': []}
+--- Request ---
+Prompt: create an remote control base pcb board
+Parsed: {'original_text': 'create an remote control base pcb board', 'components': [], 'connections': []}
+--- Request ---
+Prompt: Design a board with an LED and a Resistor
+Parsed: {'original_text': 'Design a board with an LED and a Resistor', 'components': [{'name': 'LED', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Resistor', 'quantity': 1, 'type': 'NOUN'}], 'connections': []}
+--- Request ---
+Prompt: Design a board for arduino uno  and connect the  all  layers with using the copper connection and add the required commponents for the arduino 
+Parsed: {'original_text': 'Design a board for arduino uno  and connect the  all  layers with using the copper connection and add the required commponents for the arduino ', 'components': [], 'connections': []}
+--- Request ---
+--- Request ---
+--- Request ---
+Prompt: Design a board for arduino uno with using components
+
+## Essential Electronic Components
+
+- **Resistors** - For current limiting (typically 220Ω, 1kΩ, 10kΩ)
+- **Capacitors** - For filtering and stabilization
+
+Parsed: {'original_text': 'Design a board for arduino uno with using components\n\n## Essential Electronic Components\n\n- **Resistors** - For current limiting (typically 220Ω, 1kΩ, 10kΩ)\n- **Capacitors** - For filtering and stabilization\n', 'components': [{'name': 'Resistors', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Capacitors', 'quantity': 1, 'type': 'NOUN'}], 'connections': []}
+--- Request ---
+Prompt: Design a board for arduino uno with using components
+
+## Input Components
+
+- **Push Buttons** - For user input and control
+- **Potentiometers** - Variable resistors for analog input
+- **Sensors:**
+  - Temperature sensors (DHT11, DHT22, LM35)
+  - Ultrasonic sensors (HC-SR04) - for distance measurement
+  - PIR motion sensors
+  - Light sensors (LDR, photodiodes)
+  - Gas/smoke sensors (MQ series)
+  - Sound sensors
+  - Touch sensors
+  - Accelerometers and gyroscopes (MPU6050)
+
+## Output Components
+
+- **LEDs** - Single color or RGB
+- **LCD Displays** - 16x2 or 20x4 character displays
+- **OLED Displays** - Small graphical displays
+- **Buzzers** - For sound output
+- **Motors:**
+  - DC motors
+  - Servo motors
+  - Stepper motors
+- **Relays** - For controlling high-voltage devices
+- **7-Segment Displays**
+
+## Essential Electronic Components
+
+- **Resistors** - For current limiting (typically 220Ω, 1kΩ, 10kΩ)
+- **Capacitors** - For filtering and stabilization
+- **Transistors** - For switching and amplification
+- **Diodes** - For protection circuits
+- **Breadboard** - For prototyping without soldering
+- **Jumper Wires** - Male-to-male, male-to-female, female-to-female
+
+## Power Components
+
+- **Power supply** - 9V battery, USB cable, or AC adapter
+- **Voltage regulators** - For stable power supply
+- **Battery holders**
+
+## Communication Modules
+
+- **Bluetooth modules** (HC-05, HC-06)
+- **WiFi modules** (ESP8266)
+- **GSM modules**
+- **RF modules**
+
+
+Parsed: {'original_text': 'Design a board for arduino uno with using components\n\n## Input Components\n\n- **Push Buttons** - For user input and control\n- **Potentiometers** - Variable resistors for analog input\n- **Sensors:**\n  - Temperature sensors (DHT11, DHT22, LM35)\n  - Ultrasonic sensors (HC-SR04) - for distance measurement\n  - PIR motion sensors\n  - Light sensors (LDR, photodiodes)\n  - Gas/smoke sensors (MQ series)\n  - Sound sensors\n  - Touch sensors\n  - Accelerometers and gyroscopes (MPU6050)\n\n## Output Components\n\n- **LEDs** - Single color or RGB\n- **LCD Displays** - 16x2 or 20x4 character displays\n- **OLED Displays** - Small graphical displays\n- **Buzzers** - For sound output\n- **Motors:**\n  - DC motors\n  - Servo motors\n  - Stepper motors\n- **Relays** - For controlling high-voltage devices\n- **7-Segment Displays**\n\n## Essential Electronic Components\n\n- **Resistors** - For current limiting (typically 220Ω, 1kΩ, 10kΩ)\n- **Capacitors** - For filtering and stabilization\n- **Transistors** - For switching and amplification\n- **Diodes** - For protection circuits\n- **Breadboard** - For prototyping without soldering\n- **Jumper Wires** - Male-to-male, male-to-female, female-to-female\n\n## Power Components\n\n- **Power supply** - 9V battery, USB cable, or AC adapter\n- **Voltage regulators** - For stable power supply\n- **Battery holders**\n\n## Communication Modules\n\n- **Bluetooth modules** (HC-05, HC-06)\n- **WiFi modules** (ESP8266)\n- **GSM modules**\n- **RF modules**\n\n', 'components': [{'name': 'resistors', 'quantity': 1, 'type': 'NOUN'}, {'name': 'photodiodes', 'quantity': 1, 'type': 'VERB'}, {'name': 'LEDs', 'quantity': 1, 'type': 'NOUN'}, {'name': 'OLED', 'quantity': 1, 'type': 'ADJ'}, {'name': 'Resistors', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Capacitors', 'quantity': 1, 'type': 'NOUN'}, {'name': 'switching', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Diodes', 'quantity': 1, 'type': 'NOUN'}, {'name': 'battery', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Battery', 'quantity': 1, 'type': 'NOUN'}], 'connections': []}
+--- Request ---
+Prompt: Design a board for arduino uno with using components
+
+## Input Components
+
+- **Push Buttons** - For user input and control
+- **Potentiometers** - Variable resistors for analog input
+- **Sensors:**
+  - Temperature sensors (DHT11, DHT22, LM35)
+  - Ultrasonic sensors (HC-SR04) - for distance measurement
+  - PIR motion sensors
+  - Light sensors (LDR, photodiodes)
+  - Gas/smoke sensors (MQ series)
+  - Sound sensors
+  - Touch sensors
+  - Accelerometers and gyroscopes (MPU6050)
+
+## Output Components
+
+- **LEDs** - Single color or RGB
+- **LCD Displays** - 16x2 or 20x4 character displays
+- **OLED Displays** - Small graphical displays
+- **Buzzers** - For sound output
+- **Motors:**
+  - DC motors
+  - Servo motors
+  - Stepper motors
+- **Relays** - For controlling high-voltage devices
+- **7-Segment Displays**
+
+## Essential Electronic Components
+
+- **Resistors** - For current limiting (typically 220Ω, 1kΩ, 10kΩ)
+- **Capacitors** - For filtering and stabilization
+- **Transistors** - For switching and amplification
+- **Diodes** - For protection circuits
+- **Breadboard** - For prototyping without soldering
+- **Jumper Wires** - Male-to-male, male-to-female, female-to-female
+
+## Power Components
+
+- **Power supply** - 9V battery, USB cable, or AC adapter
+- **Voltage regulators** - For stable power supply
+- **Battery holders**
+
+## Communication Modules
+
+- **Bluetooth modules** (HC-05, HC-06)
+- **WiFi modules** (ESP8266)
+- **GSM modules**
+- **RF modules**
+
+
+Parsed: {'original_text': 'Design a board for arduino uno with using components\n\n## Input Components\n\n- **Push Buttons** - For user input and control\n- **Potentiometers** - Variable resistors for analog input\n- **Sensors:**\n  - Temperature sensors (DHT11, DHT22, LM35)\n  - Ultrasonic sensors (HC-SR04) - for distance measurement\n  - PIR motion sensors\n  - Light sensors (LDR, photodiodes)\n  - Gas/smoke sensors (MQ series)\n  - Sound sensors\n  - Touch sensors\n  - Accelerometers and gyroscopes (MPU6050)\n\n## Output Components\n\n- **LEDs** - Single color or RGB\n- **LCD Displays** - 16x2 or 20x4 character displays\n- **OLED Displays** - Small graphical displays\n- **Buzzers** - For sound output\n- **Motors:**\n  - DC motors\n  - Servo motors\n  - Stepper motors\n- **Relays** - For controlling high-voltage devices\n- **7-Segment Displays**\n\n## Essential Electronic Components\n\n- **Resistors** - For current limiting (typically 220Ω, 1kΩ, 10kΩ)\n- **Capacitors** - For filtering and stabilization\n- **Transistors** - For switching and amplification\n- **Diodes** - For protection circuits\n- **Breadboard** - For prototyping without soldering\n- **Jumper Wires** - Male-to-male, male-to-female, female-to-female\n\n## Power Components\n\n- **Power supply** - 9V battery, USB cable, or AC adapter\n- **Voltage regulators** - For stable power supply\n- **Battery holders**\n\n## Communication Modules\n\n- **Bluetooth modules** (HC-05, HC-06)\n- **WiFi modules** (ESP8266)\n- **GSM modules**\n- **RF modules**\n\n', 'components': [{'name': 'Push Buttons', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Potentiometers', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Sensors:', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Temperature sensors (DHT11, DHT22, LM35)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Ultrasonic sensors (HC', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'PIR motion sensors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Light sensors (LDR, photodiodes)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Gas/smoke sensors (MQ series)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Sound sensors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Touch sensors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Accelerometers and gyroscopes (MPU6050)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'LEDs', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'LCD Displays', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'OLED Displays', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Buzzers', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Motors:', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'DC motors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Servo motors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Stepper motors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Relays', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Display', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Resistors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Capacitors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Transistors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Diodes', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Breadboard', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Jumper Wires', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Power supply', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Voltage regulators', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Battery holders', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Bluetooth modules (HC', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'WiFi modules (ESP8266)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'GSM modules', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'RF modules', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'arduino', 'quantity': 1, 'type': 'ADJ'}, {'name': 'Buttons', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Sensors', 'quantity': 1, 'type': 'NOUN'}, {'name': 'DHT11', 'quantity': 1, 'type': 'PROPN'}, {'name': 'DHT22', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LM35', 'quantity': 1, 'type': 'PROPN'}, {'name': 'PIR', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LDR', 'quantity': 1, 'type': 'PROPN'}, {'name': 'MQ', 'quantity': 1, 'type': 'PROPN'}, {'name': 'MPU6050', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LCD', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Displays', 'quantity': 1, 'type': 'NOUN'}, {'name': 'OLED', 'quantity': 1, 'type': 'ADJ'}, {'name': 'Motors', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Segment', 'quantity': 1, 'type': 'NOUN'}, {'name': 'switching', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Jumper', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Wires', 'quantity': 1, 'type': 'PROPN'}, {'name': 'battery', 'quantity': 1, 'type': 'NOUN'}, {'name': 'regulators', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Modules', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Bluetooth', 'quantity': 1, 'type': 'NOUN'}, {'name': 'WiFi', 'quantity': 1, 'type': 'NOUN'}, {'name': 'ESP8266', 'quantity': 1, 'type': 'INTJ'}, {'name': 'GSM', 'quantity': 1, 'type': 'PROPN'}, {'name': 'RF', 'quantity': 1, 'type': 'NOUN'}], 'connections': []}
+--- Request ---
+Prompt: Design a board for arduino uno with using components
+
+## Input Components
+
+- **Push Buttons** - For user input and control
+- **Potentiometers** - Variable resistors for analog input
+- **Sensors:**
+  - Temperature sensors (DHT11, DHT22, LM35)
+  - Ultrasonic sensors (HC-SR04) - for distance measurement
+  - PIR motion sensors
+  - Light sensors (LDR, photodiodes)
+  - Gas/smoke sensors (MQ series)
+  - Sound sensors
+  - Touch sensors
+  - Accelerometers and gyroscopes (MPU6050)
+
+## Output Components
+
+- **LEDs** - Single color or RGB
+- **LCD Displays** - 16x2 or 20x4 character displays
+- **OLED Displays** - Small graphical displays
+- **Buzzers** - For sound output
+- **Motors:**
+  - DC motors
+  - Servo motors
+  - Stepper motors
+- **Relays** - For controlling high-voltage devices
+- **7-Segment Displays**
+
+## Essential Electronic Components
+
+- **Resistors** - For current limiting (typically 220Ω, 1kΩ, 10kΩ)
+- **Capacitors** - For filtering and stabilization
+- **Transistors** - For switching and amplification
+- **Diodes** - For protection circuits
+- **Breadboard** - For prototyping without soldering
+- **Jumper Wires** - Male-to-male, male-to-female, female-to-female
+
+## Power Components
+
+- **Power supply** - 9V battery, USB cable, or AC adapter
+- **Voltage regulators** - For stable power supply
+- **Battery holders**
+
+## Communication Modules
+
+- **Bluetooth modules** (HC-05, HC-06)
+- **WiFi modules** (ESP8266)
+- **GSM modules**
+- **RF modules**
+
+
+Parsed: {'original_text': 'Design a board for arduino uno with using components\n\n## Input Components\n\n- **Push Buttons** - For user input and control\n- **Potentiometers** - Variable resistors for analog input\n- **Sensors:**\n  - Temperature sensors (DHT11, DHT22, LM35)\n  - Ultrasonic sensors (HC-SR04) - for distance measurement\n  - PIR motion sensors\n  - Light sensors (LDR, photodiodes)\n  - Gas/smoke sensors (MQ series)\n  - Sound sensors\n  - Touch sensors\n  - Accelerometers and gyroscopes (MPU6050)\n\n## Output Components\n\n- **LEDs** - Single color or RGB\n- **LCD Displays** - 16x2 or 20x4 character displays\n- **OLED Displays** - Small graphical displays\n- **Buzzers** - For sound output\n- **Motors:**\n  - DC motors\n  - Servo motors\n  - Stepper motors\n- **Relays** - For controlling high-voltage devices\n- **7-Segment Displays**\n\n## Essential Electronic Components\n\n- **Resistors** - For current limiting (typically 220Ω, 1kΩ, 10kΩ)\n- **Capacitors** - For filtering and stabilization\n- **Transistors** - For switching and amplification\n- **Diodes** - For protection circuits\n- **Breadboard** - For prototyping without soldering\n- **Jumper Wires** - Male-to-male, male-to-female, female-to-female\n\n## Power Components\n\n- **Power supply** - 9V battery, USB cable, or AC adapter\n- **Voltage regulators** - For stable power supply\n- **Battery holders**\n\n## Communication Modules\n\n- **Bluetooth modules** (HC-05, HC-06)\n- **WiFi modules** (ESP8266)\n- **GSM modules**\n- **RF modules**\n\n', 'components': [{'name': 'Push Buttons', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Potentiometers', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Sensors:', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Temperature sensors (DHT11, DHT22, LM35)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Ultrasonic sensors (HC', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'PIR motion sensors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Light sensors (LDR, photodiodes)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Gas/smoke sensors (MQ series)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Sound sensors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Touch sensors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Accelerometers and gyroscopes (MPU6050)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'LEDs', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'LCD Displays', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'OLED Displays', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Buzzers', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Motors:', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'DC motors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Servo motors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Stepper motors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Relays', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Display', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Resistors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Capacitors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Transistors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Diodes', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Breadboard', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Jumper Wires', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Power supply', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Voltage regulators', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Battery holders', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Bluetooth modules (HC', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'WiFi modules (ESP8266)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'GSM modules', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'RF modules', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'arduino', 'quantity': 1, 'type': 'ADJ'}, {'name': 'Buttons', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Sensors', 'quantity': 1, 'type': 'NOUN'}, {'name': 'DHT11', 'quantity': 1, 'type': 'PROPN'}, {'name': 'DHT22', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LM35', 'quantity': 1, 'type': 'PROPN'}, {'name': 'PIR', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LDR', 'quantity': 1, 'type': 'PROPN'}, {'name': 'MQ', 'quantity': 1, 'type': 'PROPN'}, {'name': 'MPU6050', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LCD', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Displays', 'quantity': 1, 'type': 'NOUN'}, {'name': 'OLED', 'quantity': 1, 'type': 'ADJ'}, {'name': 'Motors', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Segment', 'quantity': 1, 'type': 'NOUN'}, {'name': 'switching', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Jumper', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Wires', 'quantity': 1, 'type': 'PROPN'}, {'name': 'battery', 'quantity': 1, 'type': 'NOUN'}, {'name': 'regulators', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Modules', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Bluetooth', 'quantity': 1, 'type': 'NOUN'}, {'name': 'WiFi', 'quantity': 1, 'type': 'NOUN'}, {'name': 'ESP8266', 'quantity': 1, 'type': 'INTJ'}, {'name': 'GSM', 'quantity': 1, 'type': 'PROPN'}, {'name': 'RF', 'quantity': 1, 'type': 'NOUN'}], 'connections': []}
+--- Request ---
+Prompt: Design a board for arduino uno with using components
+
+## Input Components
+
+- **Push Buttons** - For user input and control
+- **Potentiometers** - Variable resistors for analog input
+- **Sensors:**
+  - Temperature sensors (DHT11, DHT22, LM35)
+  - Ultrasonic sensors (HC-SR04) - for distance measurement
+  - PIR motion sensors
+  - Light sensors (LDR, photodiodes)
+  - Gas/smoke sensors (MQ series)
+  - Sound sensors
+  - Touch sensors
+  - Accelerometers and gyroscopes (MPU6050)
+
+## Output Components
+
+- **LEDs** - Single color or RGB
+- **LCD Displays** - 16x2 or 20x4 character displays
+- **OLED Displays** - Small graphical displays
+- **Buzzers** - For sound output
+- **Motors:**
+  - DC motors
+  - Servo motors
+  - Stepper motors
+- **Relays** - For controlling high-voltage devices
+- **7-Segment Displays**
+
+## Essential Electronic Components
+
+- **Resistors** - For current limiting (typically 220Ω, 1kΩ, 10kΩ)
+- **Capacitors** - For filtering and stabilization
+- **Transistors** - For switching and amplification
+- **Diodes** - For protection circuits
+- **Breadboard** - For prototyping without soldering
+- **Jumper Wires** - Male-to-male, male-to-female, female-to-female
+
+## Power Components
+
+- **Power supply** - 9V battery, USB cable, or AC adapter
+- **Voltage regulators** - For stable power supply
+- **Battery holders**
+
+## Communication Modules
+
+- **Bluetooth modules** (HC-05, HC-06)
+- **WiFi modules** (ESP8266)
+- **GSM modules**
+- **RF modules**
+
+
+Parsed: {'original_text': 'Design a board for arduino uno with using components\n\n## Input Components\n\n- **Push Buttons** - For user input and control\n- **Potentiometers** - Variable resistors for analog input\n- **Sensors:**\n  - Temperature sensors (DHT11, DHT22, LM35)\n  - Ultrasonic sensors (HC-SR04) - for distance measurement\n  - PIR motion sensors\n  - Light sensors (LDR, photodiodes)\n  - Gas/smoke sensors (MQ series)\n  - Sound sensors\n  - Touch sensors\n  - Accelerometers and gyroscopes (MPU6050)\n\n## Output Components\n\n- **LEDs** - Single color or RGB\n- **LCD Displays** - 16x2 or 20x4 character displays\n- **OLED Displays** - Small graphical displays\n- **Buzzers** - For sound output\n- **Motors:**\n  - DC motors\n  - Servo motors\n  - Stepper motors\n- **Relays** - For controlling high-voltage devices\n- **7-Segment Displays**\n\n## Essential Electronic Components\n\n- **Resistors** - For current limiting (typically 220Ω, 1kΩ, 10kΩ)\n- **Capacitors** - For filtering and stabilization\n- **Transistors** - For switching and amplification\n- **Diodes** - For protection circuits\n- **Breadboard** - For prototyping without soldering\n- **Jumper Wires** - Male-to-male, male-to-female, female-to-female\n\n## Power Components\n\n- **Power supply** - 9V battery, USB cable, or AC adapter\n- **Voltage regulators** - For stable power supply\n- **Battery holders**\n\n## Communication Modules\n\n- **Bluetooth modules** (HC-05, HC-06)\n- **WiFi modules** (ESP8266)\n- **GSM modules**\n- **RF modules**\n\n', 'components': [{'name': 'Push Buttons', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Potentiometers', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Sensors:', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Temperature sensors (DHT11, DHT22, LM35)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Ultrasonic sensors (HC', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'PIR motion sensors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Light sensors (LDR, photodiodes)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Gas/smoke sensors (MQ series)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Sound sensors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Touch sensors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Accelerometers and gyroscopes (MPU6050)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'LEDs', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'LCD Displays', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'OLED Displays', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Buzzers', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Motors:', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'DC motors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Servo motors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Stepper motors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Relays', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Display', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Resistors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Capacitors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Transistors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Diodes', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Breadboard', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Jumper Wires', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Power supply', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Voltage regulators', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Battery holders', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Bluetooth modules (HC', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'WiFi modules (ESP8266)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'GSM modules', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'RF modules', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'arduino', 'quantity': 1, 'type': 'ADJ'}, {'name': 'Buttons', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Sensors', 'quantity': 1, 'type': 'NOUN'}, {'name': 'DHT11', 'quantity': 1, 'type': 'PROPN'}, {'name': 'DHT22', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LM35', 'quantity': 1, 'type': 'PROPN'}, {'name': 'PIR', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LDR', 'quantity': 1, 'type': 'PROPN'}, {'name': 'MQ', 'quantity': 1, 'type': 'PROPN'}, {'name': 'MPU6050', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LCD', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Displays', 'quantity': 1, 'type': 'NOUN'}, {'name': 'OLED', 'quantity': 1, 'type': 'ADJ'}, {'name': 'Motors', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Segment', 'quantity': 1, 'type': 'NOUN'}, {'name': 'switching', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Jumper', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Wires', 'quantity': 1, 'type': 'PROPN'}, {'name': 'battery', 'quantity': 1, 'type': 'NOUN'}, {'name': 'regulators', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Modules', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Bluetooth', 'quantity': 1, 'type': 'NOUN'}, {'name': 'WiFi', 'quantity': 1, 'type': 'NOUN'}, {'name': 'ESP8266', 'quantity': 1, 'type': 'INTJ'}, {'name': 'GSM', 'quantity': 1, 'type': 'PROPN'}, {'name': 'RF', 'quantity': 1, 'type': 'NOUN'}], 'connections': []}
+--- Request ---
+Prompt: Design a board for arduino uno with using components
+
+## Input Components
+
+- **Push Buttons** - For user input and control
+- **Potentiometers** - Variable resistors for analog input
+- **Sensors:**
+  - Temperature sensors (DHT11, DHT22, LM35)
+  - Ultrasonic sensors (HC-SR04) - for distance measurement
+  - PIR motion sensors
+  - Light sensors (LDR, photodiodes)
+  - Gas/smoke sensors (MQ series)
+  - Sound sensors
+  - Touch sensors
+  - Accelerometers and gyroscopes (MPU6050)
+
+## Output Components
+
+- **LEDs** - Single color or RGB
+- **LCD Displays** - 16x2 or 20x4 character displays
+- **OLED Displays** - Small graphical displays
+- **Buzzers** - For sound output
+- **Motors:**
+  - DC motors
+  - Servo motors
+  - Stepper motors
+- **Relays** - For controlling high-voltage devices
+- **7-Segment Displays**
+
+## Essential Electronic Components
+
+- **Resistors** - For current limiting (typically 220Ω, 1kΩ, 10kΩ)
+- **Capacitors** - For filtering and stabilization
+- **Transistors** - For switching and amplification
+- **Diodes** - For protection circuits
+- **Breadboard** - For prototyping without soldering
+- **Jumper Wires** - Male-to-male, male-to-female, female-to-female
+
+## Power Components
+
+- **Power supply** - 9V battery, USB cable, or AC adapter
+- **Voltage regulators** - For stable power supply
+- **Battery holders**
+
+## Communication Modules
+
+- **Bluetooth modules** (HC-05, HC-06)
+- **WiFi modules** (ESP8266)
+- **GSM modules**
+- **RF modules**
+
+
+Parsed: {'original_text': 'Design a board for arduino uno with using components\n\n## Input Components\n\n- **Push Buttons** - For user input and control\n- **Potentiometers** - Variable resistors for analog input\n- **Sensors:**\n  - Temperature sensors (DHT11, DHT22, LM35)\n  - Ultrasonic sensors (HC-SR04) - for distance measurement\n  - PIR motion sensors\n  - Light sensors (LDR, photodiodes)\n  - Gas/smoke sensors (MQ series)\n  - Sound sensors\n  - Touch sensors\n  - Accelerometers and gyroscopes (MPU6050)\n\n## Output Components\n\n- **LEDs** - Single color or RGB\n- **LCD Displays** - 16x2 or 20x4 character displays\n- **OLED Displays** - Small graphical displays\n- **Buzzers** - For sound output\n- **Motors:**\n  - DC motors\n  - Servo motors\n  - Stepper motors\n- **Relays** - For controlling high-voltage devices\n- **7-Segment Displays**\n\n## Essential Electronic Components\n\n- **Resistors** - For current limiting (typically 220Ω, 1kΩ, 10kΩ)\n- **Capacitors** - For filtering and stabilization\n- **Transistors** - For switching and amplification\n- **Diodes** - For protection circuits\n- **Breadboard** - For prototyping without soldering\n- **Jumper Wires** - Male-to-male, male-to-female, female-to-female\n\n## Power Components\n\n- **Power supply** - 9V battery, USB cable, or AC adapter\n- **Voltage regulators** - For stable power supply\n- **Battery holders**\n\n## Communication Modules\n\n- **Bluetooth modules** (HC-05, HC-06)\n- **WiFi modules** (ESP8266)\n- **GSM modules**\n- **RF modules**\n\n', 'components': [{'name': 'Push Buttons', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Potentiometers', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Sensors:', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Temperature sensors (DHT11, DHT22, LM35)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Ultrasonic sensors (HC', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'PIR motion sensors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Light sensors (LDR, photodiodes)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Gas/smoke sensors (MQ series)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Sound sensors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Touch sensors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Accelerometers and gyroscopes (MPU6050)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'LEDs', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'LCD Displays', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'OLED Displays', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Buzzers', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Motors:', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'DC motors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Servo motors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Stepper motors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Relays', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Display', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Resistors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Capacitors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Transistors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Diodes', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Breadboard', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Jumper Wires', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Power supply', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Voltage regulators', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Battery holders', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Bluetooth modules (HC', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'WiFi modules (ESP8266)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'GSM modules', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'RF modules', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'arduino', 'quantity': 1, 'type': 'ADJ'}, {'name': 'Buttons', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Sensors', 'quantity': 1, 'type': 'NOUN'}, {'name': 'DHT11', 'quantity': 1, 'type': 'PROPN'}, {'name': 'DHT22', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LM35', 'quantity': 1, 'type': 'PROPN'}, {'name': 'PIR', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LDR', 'quantity': 1, 'type': 'PROPN'}, {'name': 'MQ', 'quantity': 1, 'type': 'PROPN'}, {'name': 'MPU6050', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LCD', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Displays', 'quantity': 1, 'type': 'NOUN'}, {'name': 'OLED', 'quantity': 1, 'type': 'ADJ'}, {'name': 'Motors', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Segment', 'quantity': 1, 'type': 'NOUN'}, {'name': 'switching', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Jumper', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Wires', 'quantity': 1, 'type': 'PROPN'}, {'name': 'battery', 'quantity': 1, 'type': 'NOUN'}, {'name': 'regulators', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Modules', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Bluetooth', 'quantity': 1, 'type': 'NOUN'}, {'name': 'WiFi', 'quantity': 1, 'type': 'NOUN'}, {'name': 'ESP8266', 'quantity': 1, 'type': 'INTJ'}, {'name': 'GSM', 'quantity': 1, 'type': 'PROPN'}, {'name': 'RF', 'quantity': 1, 'type': 'NOUN'}], 'connections': []}
+--- Request ---
+Prompt: Design a board for arduino uno with using components
+
+## Input Components
+
+- **Push Buttons** - For user input and control
+- **Potentiometers** - Variable resistors for analog input
+- **Sensors:**
+  - Temperature sensors (DHT11, DHT22, LM35)
+  - Ultrasonic sensors (HC-SR04) - for distance measurement
+  - PIR motion sensors
+  - Light sensors (LDR, photodiodes)
+  - Gas/smoke sensors (MQ series)
+  - Sound sensors
+  - Touch sensors
+  - Accelerometers and gyroscopes (MPU6050)
+
+## Output Components
+
+- **LEDs** - Single color or RGB
+- **LCD Displays** - 16x2 or 20x4 character displays
+- **OLED Displays** - Small graphical displays
+- **Buzzers** - For sound output
+- **Motors:**
+  - DC motors
+  - Servo motors
+  - Stepper motors
+- **Relays** - For controlling high-voltage devices
+- **7-Segment Displays**
+
+## Essential Electronic Components
+
+- **Resistors** - For current limiting (typically 220Ω, 1kΩ, 10kΩ)
+- **Capacitors** - For filtering and stabilization
+- **Transistors** - For switching and amplification
+- **Diodes** - For protection circuits
+- **Breadboard** - For prototyping without soldering
+- **Jumper Wires** - Male-to-male, male-to-female, female-to-female
+
+## Power Components
+
+- **Power supply** - 9V battery, USB cable, or AC adapter
+- **Voltage regulators** - For stable power supply
+- **Battery holders**
+
+## Communication Modules
+
+- **Bluetooth modules** (HC-05, HC-06)
+- **WiFi modules** (ESP8266)
+- **GSM modules**
+- **RF modules**
+
+
+Parsed: {'original_text': 'Design a board for arduino uno with using components\n\n## Input Components\n\n- **Push Buttons** - For user input and control\n- **Potentiometers** - Variable resistors for analog input\n- **Sensors:**\n  - Temperature sensors (DHT11, DHT22, LM35)\n  - Ultrasonic sensors (HC-SR04) - for distance measurement\n  - PIR motion sensors\n  - Light sensors (LDR, photodiodes)\n  - Gas/smoke sensors (MQ series)\n  - Sound sensors\n  - Touch sensors\n  - Accelerometers and gyroscopes (MPU6050)\n\n## Output Components\n\n- **LEDs** - Single color or RGB\n- **LCD Displays** - 16x2 or 20x4 character displays\n- **OLED Displays** - Small graphical displays\n- **Buzzers** - For sound output\n- **Motors:**\n  - DC motors\n  - Servo motors\n  - Stepper motors\n- **Relays** - For controlling high-voltage devices\n- **7-Segment Displays**\n\n## Essential Electronic Components\n\n- **Resistors** - For current limiting (typically 220Ω, 1kΩ, 10kΩ)\n- **Capacitors** - For filtering and stabilization\n- **Transistors** - For switching and amplification\n- **Diodes** - For protection circuits\n- **Breadboard** - For prototyping without soldering\n- **Jumper Wires** - Male-to-male, male-to-female, female-to-female\n\n## Power Components\n\n- **Power supply** - 9V battery, USB cable, or AC adapter\n- **Voltage regulators** - For stable power supply\n- **Battery holders**\n\n## Communication Modules\n\n- **Bluetooth modules** (HC-05, HC-06)\n- **WiFi modules** (ESP8266)\n- **GSM modules**\n- **RF modules**\n\n', 'components': [{'name': 'Push Buttons', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Potentiometers', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Sensors:', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Temperature sensors (DHT11, DHT22, LM35)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Ultrasonic sensors (HC', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'PIR motion sensors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Light sensors (LDR, photodiodes)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Gas/smoke sensors (MQ series)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Sound sensors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Touch sensors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Accelerometers and gyroscopes (MPU6050)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'LEDs', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'LCD Displays', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'OLED Displays', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Buzzers', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Motors:', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'DC motors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Servo motors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Stepper motors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Relays', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Display', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Resistors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Capacitors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Transistors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Diodes', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Breadboard', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Jumper Wires', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Power supply', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Voltage regulators', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Battery holders', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Bluetooth modules (HC', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'WiFi modules (ESP8266)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'GSM modules', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'RF modules', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'arduino', 'quantity': 1, 'type': 'ADJ'}, {'name': 'Buttons', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Sensors', 'quantity': 1, 'type': 'NOUN'}, {'name': 'DHT11', 'quantity': 1, 'type': 'PROPN'}, {'name': 'DHT22', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LM35', 'quantity': 1, 'type': 'PROPN'}, {'name': 'PIR', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LDR', 'quantity': 1, 'type': 'PROPN'}, {'name': 'MQ', 'quantity': 1, 'type': 'PROPN'}, {'name': 'MPU6050', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LCD', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Displays', 'quantity': 1, 'type': 'NOUN'}, {'name': 'OLED', 'quantity': 1, 'type': 'ADJ'}, {'name': 'Motors', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Segment', 'quantity': 1, 'type': 'NOUN'}, {'name': 'switching', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Jumper', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Wires', 'quantity': 1, 'type': 'PROPN'}, {'name': 'battery', 'quantity': 1, 'type': 'NOUN'}, {'name': 'regulators', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Modules', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Bluetooth', 'quantity': 1, 'type': 'NOUN'}, {'name': 'WiFi', 'quantity': 1, 'type': 'NOUN'}, {'name': 'ESP8266', 'quantity': 1, 'type': 'INTJ'}, {'name': 'GSM', 'quantity': 1, 'type': 'PROPN'}, {'name': 'RF', 'quantity': 1, 'type': 'NOUN'}], 'connections': []}
+--- Request ---
+Prompt: Design a board for arduino uno with using components
+
+## Input Components
+
+- **Push Buttons** - For user input and control
+- **Potentiometers** - Variable resistors for analog input
+- **Sensors:**
+  - Temperature sensors (DHT11, DHT22, LM35)
+  - Ultrasonic sensors (HC-SR04) - for distance measurement
+  - PIR motion sensors
+  - Light sensors (LDR, photodiodes)
+  - Gas/smoke sensors (MQ series)
+  - Sound sensors
+  - Touch sensors
+  - Accelerometers and gyroscopes (MPU6050)
+
+## Output Components
+
+- **LEDs** - Single color or RGB
+- **LCD Displays** - 16x2 or 20x4 character displays
+- **OLED Displays** - Small graphical displays
+- **Buzzers** - For sound output
+- **Motors:**
+  - DC motors
+  - Servo motors
+  - Stepper motors
+- **Relays** - For controlling high-voltage devices
+- **7-Segment Displays**
+
+## Essential Electronic Components
+
+- **Resistors** - For current limiting (typically 220Ω, 1kΩ, 10kΩ)
+- **Capacitors** - For filtering and stabilization
+- **Transistors** - For switching and amplification
+- **Diodes** - For protection circuits
+- **Breadboard** - For prototyping without soldering
+- **Jumper Wires** - Male-to-male, male-to-female, female-to-female
+
+## Power Components
+
+- **Power supply** - 9V battery, USB cable, or AC adapter
+- **Voltage regulators** - For stable power supply
+- **Battery holders**
+
+## Communication Modules
+
+- **Bluetooth modules** (HC-05, HC-06)
+- **WiFi modules** (ESP8266)
+- **GSM modules**
+- **RF modules**
+
+
+Parsed: {'original_text': 'Design a board for arduino uno with using components\n\n## Input Components\n\n- **Push Buttons** - For user input and control\n- **Potentiometers** - Variable resistors for analog input\n- **Sensors:**\n  - Temperature sensors (DHT11, DHT22, LM35)\n  - Ultrasonic sensors (HC-SR04) - for distance measurement\n  - PIR motion sensors\n  - Light sensors (LDR, photodiodes)\n  - Gas/smoke sensors (MQ series)\n  - Sound sensors\n  - Touch sensors\n  - Accelerometers and gyroscopes (MPU6050)\n\n## Output Components\n\n- **LEDs** - Single color or RGB\n- **LCD Displays** - 16x2 or 20x4 character displays\n- **OLED Displays** - Small graphical displays\n- **Buzzers** - For sound output\n- **Motors:**\n  - DC motors\n  - Servo motors\n  - Stepper motors\n- **Relays** - For controlling high-voltage devices\n- **7-Segment Displays**\n\n## Essential Electronic Components\n\n- **Resistors** - For current limiting (typically 220Ω, 1kΩ, 10kΩ)\n- **Capacitors** - For filtering and stabilization\n- **Transistors** - For switching and amplification\n- **Diodes** - For protection circuits\n- **Breadboard** - For prototyping without soldering\n- **Jumper Wires** - Male-to-male, male-to-female, female-to-female\n\n## Power Components\n\n- **Power supply** - 9V battery, USB cable, or AC adapter\n- **Voltage regulators** - For stable power supply\n- **Battery holders**\n\n## Communication Modules\n\n- **Bluetooth modules** (HC-05, HC-06)\n- **WiFi modules** (ESP8266)\n- **GSM modules**\n- **RF modules**\n\n', 'components': [{'name': 'Push Buttons', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Potentiometers', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Sensors:', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Temperature sensors (DHT11, DHT22, LM35)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Ultrasonic sensors (HC', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'PIR motion sensors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Light sensors (LDR, photodiodes)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Gas/smoke sensors (MQ series)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Sound sensors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Touch sensors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Accelerometers and gyroscopes (MPU6050)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'LEDs', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'LCD Displays', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'OLED Displays', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Buzzers', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Motors:', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'DC motors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Servo motors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Stepper motors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Relays', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Display', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Resistors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Capacitors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Transistors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Diodes', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Breadboard', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Jumper Wires', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Power supply', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Voltage regulators', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Battery holders', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Bluetooth modules (HC', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'WiFi modules (ESP8266)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'GSM modules', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'RF modules', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'arduino', 'quantity': 1, 'type': 'ADJ'}, {'name': 'Buttons', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Sensors', 'quantity': 1, 'type': 'NOUN'}, {'name': 'DHT11', 'quantity': 1, 'type': 'PROPN'}, {'name': 'DHT22', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LM35', 'quantity': 1, 'type': 'PROPN'}, {'name': 'PIR', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LDR', 'quantity': 1, 'type': 'PROPN'}, {'name': 'MQ', 'quantity': 1, 'type': 'PROPN'}, {'name': 'MPU6050', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LCD', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Displays', 'quantity': 1, 'type': 'NOUN'}, {'name': 'OLED', 'quantity': 1, 'type': 'ADJ'}, {'name': 'Motors', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Segment', 'quantity': 1, 'type': 'NOUN'}, {'name': 'switching', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Jumper', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Wires', 'quantity': 1, 'type': 'PROPN'}, {'name': 'battery', 'quantity': 1, 'type': 'NOUN'}, {'name': 'regulators', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Modules', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Bluetooth', 'quantity': 1, 'type': 'NOUN'}, {'name': 'WiFi', 'quantity': 1, 'type': 'NOUN'}, {'name': 'ESP8266', 'quantity': 1, 'type': 'INTJ'}, {'name': 'GSM', 'quantity': 1, 'type': 'PROPN'}, {'name': 'RF', 'quantity': 1, 'type': 'NOUN'}], 'connections': []}
+--- Request ---
+Prompt: build an  simple RC car mother pcb board collect  the requering components build it
+
+Parsed: {'original_text': 'build an  simple RC car mother pcb board collect  the requering components build it\n', 'components': [], 'connections': []}
+--- Request ---
+Prompt: build an simple RC car mother board PCB Core ICs
+Motor Driver IC - L293D or L298N (controls the motors)
+
+L293D - Dual H-Bridge, up to 600mA per channel
+L298N - Dual H-Bridge, up to 2A per channel
+
+RF Receiver Module - 433MHz or 2.4GHz receiver chip to receive signals from the remote
+Microcontroller (optional) - ATmega328 or similar for programmable control
+Power Components
+Voltage Regulator - 7805 (5V output) for powering the logic circuits
+Diodes - 1N4007 for reverse polarity protection
+Capacitors:
+
+100µF electrolytic capacitors for power smoothing
+0.1µF ceramic capacitors for decoupling
+
+Passive Components
+Resistors:
+
+10kΩ - Pull-up/pull-down resistors
+220Ω - LED current limiting
+1kΩ - General purpose
+
+LEDs - For power indication and status (red, green)
+Connection Components
+Screw Terminals - For motor connections
+Pin Headers - For receiver module connection
+DC Jack - For battery input
+Switches - Power on/off switch
+Motors (Connected to PCB)
+DC Motors - 2 or 4 motors (for wheels)
+
+Typical: 3V-6V DC geared motors
+
+Battery
+Power Source - 9V battery or 7.4V Li-Po battery (connects to PCB)
+Parsed: {'original_text': 'build an simple RC car mother board PCB Core ICs\nMotor Driver IC - L293D or L298N (controls the motors)\n\nL293D - Dual H-Bridge, up to 600mA per channel\nL298N - Dual H-Bridge, up to 2A per channel\n\nRF Receiver Module - 433MHz or 2.4GHz receiver chip to receive signals from the remote\nMicrocontroller (optional) - ATmega328 or similar for programmable control\nPower Components\nVoltage Regulator - 7805 (5V output) for powering the logic circuits\nDiodes - 1N4007 for reverse polarity protection\nCapacitors:\n\n100µF electrolytic capacitors for power smoothing\n0.1µF ceramic capacitors for decoupling\n\nPassive Components\nResistors:\n\n10kΩ - Pull-up/pull-down resistors\n220Ω - LED current limiting\n1kΩ - General purpose\n\nLEDs - For power indication and status (red, green)\nConnection Components\nScrew Terminals - For motor connections\nPin Headers - For receiver module connection\nDC Jack - For battery input\nSwitches - Power on/off switch\nMotors (Connected to PCB)\nDC Motors - 2 or 4 motors (for wheels)\n\nTypical: 3V-6V DC geared motors\n\nBattery\nPower Source - 9V battery or 7.4V Li-Po battery (connects to PCB)', 'components': [{'name': 'Motor', 'quantity': 1, 'type': 'PROPN'}, {'name': 'motors', 'quantity': 1, 'type': 'NOUN'}, {'name': 'RF', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Module', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Regulator', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Diodes', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Capacitors', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Resistors', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LED', 'quantity': 1, 'type': 'VERB'}, {'name': 'LEDs', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Headers', 'quantity': 1, 'type': 'PROPN'}, {'name': 'battery', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Switches', 'quantity': 1, 'type': 'PROPN'}, {'name': 'switch', 'quantity': 1, 'type': 'NOUN'}], 'connections': []}
+--- Request ---
+Prompt: build an simple RC car mother board PCB Core ICs
+Motor Driver IC - L293D or L298N (controls the motors)
+
+L293D - Dual H-Bridge, up to 600mA per channel
+L298N - Dual H-Bridge, up to 2A per channel
+
+RF Receiver Module - 433MHz or 2.4GHz receiver chip to receive signals from the remote
+Microcontroller (optional) - ATmega328 or similar for programmable control
+Power Components
+Voltage Regulator - 7805 (5V output) for powering the logic circuits
+Diodes - 1N4007 for reverse polarity protection
+Capacitors:
+
+100µF electrolytic capacitors for power smoothing
+0.1µF ceramic capacitors for decoupling
+
+Passive Components
+Resistors:
+
+10kΩ - Pull-up/pull-down resistors
+220Ω - LED current limiting
+1kΩ - General purpose
+
+LEDs - For power indication and status (red, green)
+Connection Components
+Screw Terminals - For motor connections
+Pin Headers - For receiver module connection
+DC Jack - For battery input
+Switches - Power on/off switch
+Motors (Connected to PCB)
+DC Motors - 2 or 4 motors (for wheels)
+
+Typical: 3V-6V DC geared motors
+
+Battery
+Power Source - 9V battery or 7.4V Li-Po battery (connects to PCB)
+Parsed: {'original_text': 'build an simple RC car mother board PCB Core ICs\nMotor Driver IC - L293D or L298N (controls the motors)\n\nL293D - Dual H-Bridge, up to 600mA per channel\nL298N - Dual H-Bridge, up to 2A per channel\n\nRF Receiver Module - 433MHz or 2.4GHz receiver chip to receive signals from the remote\nMicrocontroller (optional) - ATmega328 or similar for programmable control\nPower Components\nVoltage Regulator - 7805 (5V output) for powering the logic circuits\nDiodes - 1N4007 for reverse polarity protection\nCapacitors:\n\n100µF electrolytic capacitors for power smoothing\n0.1µF ceramic capacitors for decoupling\n\nPassive Components\nResistors:\n\n10kΩ - Pull-up/pull-down resistors\n220Ω - LED current limiting\n1kΩ - General purpose\n\nLEDs - For power indication and status (red, green)\nConnection Components\nScrew Terminals - For motor connections\nPin Headers - For receiver module connection\nDC Jack - For battery input\nSwitches - Power on/off switch\nMotors (Connected to PCB)\nDC Motors - 2 or 4 motors (for wheels)\n\nTypical: 3V-6V DC geared motors\n\nBattery\nPower Source - 9V battery or 7.4V Li-Po battery (connects to PCB)', 'components': [{'name': 'Motor', 'quantity': 1, 'type': 'PROPN'}, {'name': 'motors', 'quantity': 1, 'type': 'NOUN'}, {'name': 'RF', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Module', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Regulator', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Diodes', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Capacitors', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Resistors', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LED', 'quantity': 1, 'type': 'VERB'}, {'name': 'LEDs', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Headers', 'quantity': 1, 'type': 'PROPN'}, {'name': 'battery', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Switches', 'quantity': 1, 'type': 'PROPN'}, {'name': 'switch', 'quantity': 1, 'type': 'NOUN'}], 'connections': []}
+--- Request ---
+Prompt: build an simple RC car mother board PCB Core ICs
+Motor Driver IC - L293D or L298N (controls the motors)
+
+L293D - Dual H-Bridge, up to 600mA per channel
+L298N - Dual H-Bridge, up to 2A per channel
+
+RF Receiver Module - 433MHz or 2.4GHz receiver chip to receive signals from the remote
+Microcontroller (optional) - ATmega328 or similar for programmable control
+Power Components
+Voltage Regulator - 7805 (5V output) for powering the logic circuits
+Diodes - 1N4007 for reverse polarity protection
+Capacitors:
+
+100µF electrolytic capacitors for power smoothing
+0.1µF ceramic capacitors for decoupling
+
+Passive Components
+Resistors:
+
+10kΩ - Pull-up/pull-down resistors
+220Ω - LED current limiting
+1kΩ - General purpose
+
+LEDs - For power indication and status (red, green)
+Connection Components
+Screw Terminals - For motor connections
+Pin Headers - For receiver module connection
+DC Jack - For battery input
+Switches - Power on/off switch
+Motors (Connected to PCB)
+DC Motors - 2 or 4 motors (for wheels)
+
+Typical: 3V-6V DC geared motors
+
+Battery
+Power Source - 9V battery or 7.4V Li-Po battery (connects to PCB)
+Parsed: {'original_text': 'build an simple RC car mother board PCB Core ICs\nMotor Driver IC - L293D or L298N (controls the motors)\n\nL293D - Dual H-Bridge, up to 600mA per channel\nL298N - Dual H-Bridge, up to 2A per channel\n\nRF Receiver Module - 433MHz or 2.4GHz receiver chip to receive signals from the remote\nMicrocontroller (optional) - ATmega328 or similar for programmable control\nPower Components\nVoltage Regulator - 7805 (5V output) for powering the logic circuits\nDiodes - 1N4007 for reverse polarity protection\nCapacitors:\n\n100µF electrolytic capacitors for power smoothing\n0.1µF ceramic capacitors for decoupling\n\nPassive Components\nResistors:\n\n10kΩ - Pull-up/pull-down resistors\n220Ω - LED current limiting\n1kΩ - General purpose\n\nLEDs - For power indication and status (red, green)\nConnection Components\nScrew Terminals - For motor connections\nPin Headers - For receiver module connection\nDC Jack - For battery input\nSwitches - Power on/off switch\nMotors (Connected to PCB)\nDC Motors - 2 or 4 motors (for wheels)\n\nTypical: 3V-6V DC geared motors\n\nBattery\nPower Source - 9V battery or 7.4V Li-Po battery (connects to PCB)', 'components': [{'name': 'Motor', 'quantity': 1, 'type': 'PROPN'}, {'name': 'motors', 'quantity': 1, 'type': 'NOUN'}, {'name': 'RF', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Module', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Regulator', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Diodes', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Capacitors', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Resistors', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LED', 'quantity': 1, 'type': 'VERB'}, {'name': 'LEDs', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Headers', 'quantity': 1, 'type': 'PROPN'}, {'name': 'battery', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Switches', 'quantity': 1, 'type': 'PROPN'}, {'name': 'switch', 'quantity': 1, 'type': 'NOUN'}], 'connections': []}
+--- Request ---
+Prompt: build an simple RC car mother board PCB Core ICs
+Motor Driver IC - L293D or L298N (controls the motors)
+
+L293D - Dual H-Bridge, up to 600mA per channel
+L298N - Dual H-Bridge, up to 2A per channel
+
+RF Receiver Module - 433MHz or 2.4GHz receiver chip to receive signals from the remote
+Microcontroller (optional) - ATmega328 or similar for programmable control
+Power Components
+Voltage Regulator - 7805 (5V output) for powering the logic circuits
+Diodes - 1N4007 for reverse polarity protection
+Capacitors:
+
+100µF electrolytic capacitors for power smoothing
+0.1µF ceramic capacitors for decoupling
+
+Passive Components
+Resistors:
+
+10kΩ - Pull-up/pull-down resistors
+220Ω - LED current limiting
+1kΩ - General purpose
+
+LEDs - For power indication and status (red, green)
+Connection Components
+Screw Terminals - For motor connections
+Pin Headers - For receiver module connection
+DC Jack - For battery input
+Switches - Power on/off switch
+Motors (Connected to PCB)
+DC Motors - 2 or 4 motors (for wheels)
+
+Typical: 3V-6V DC geared motors
+
+Battery
+Power Source - 9V battery or 7.4V Li-Po battery (connects to PCB)
+Parsed: {'original_text': 'build an simple RC car mother board PCB Core ICs\nMotor Driver IC - L293D or L298N (controls the motors)\n\nL293D - Dual H-Bridge, up to 600mA per channel\nL298N - Dual H-Bridge, up to 2A per channel\n\nRF Receiver Module - 433MHz or 2.4GHz receiver chip to receive signals from the remote\nMicrocontroller (optional) - ATmega328 or similar for programmable control\nPower Components\nVoltage Regulator - 7805 (5V output) for powering the logic circuits\nDiodes - 1N4007 for reverse polarity protection\nCapacitors:\n\n100µF electrolytic capacitors for power smoothing\n0.1µF ceramic capacitors for decoupling\n\nPassive Components\nResistors:\n\n10kΩ - Pull-up/pull-down resistors\n220Ω - LED current limiting\n1kΩ - General purpose\n\nLEDs - For power indication and status (red, green)\nConnection Components\nScrew Terminals - For motor connections\nPin Headers - For receiver module connection\nDC Jack - For battery input\nSwitches - Power on/off switch\nMotors (Connected to PCB)\nDC Motors - 2 or 4 motors (for wheels)\n\nTypical: 3V-6V DC geared motors\n\nBattery\nPower Source - 9V battery or 7.4V Li-Po battery (connects to PCB)', 'components': [{'name': 'Motor', 'quantity': 1, 'type': 'PROPN'}, {'name': 'motors', 'quantity': 1, 'type': 'NOUN'}, {'name': 'RF', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Module', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Regulator', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Diodes', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Capacitors', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Resistors', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LED', 'quantity': 1, 'type': 'VERB'}, {'name': 'LEDs', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Headers', 'quantity': 1, 'type': 'PROPN'}, {'name': 'battery', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Switches', 'quantity': 1, 'type': 'PROPN'}, {'name': 'switch', 'quantity': 1, 'type': 'NOUN'}], 'connections': []}
+--- Request ---
+Prompt: Design a board for arduino uno with using components
+
+## Input Components
+
+- **Push Buttons** - For user input and control
+- **Potentiometers** - Variable resistors for analog input
+- **Sensors:**
+  - Temperature sensors (DHT11, DHT22, LM35)
+  - Ultrasonic sensors (HC-SR04) - for distance measurement
+  - PIR motion sensors
+  - Light sensors (LDR, photodiodes)
+  - Gas/smoke sensors (MQ series)
+  - Sound sensors
+  - Touch sensors
+  - Accelerometers and gyroscopes (MPU6050)
+
+## Output Components
+
+- **LEDs** - Single color or RGB
+- **LCD Displays** - 16x2 or 20x4 character displays
+- **OLED Displays** - Small graphical displays
+- **Buzzers** - For sound output
+- **Motors:**
+  - DC motors
+  - Servo motors
+  - Stepper motors
+- **Relays** - For controlling high-voltage devices
+- **7-Segment Displays**
+
+## Essential Electronic Components
+
+- **Resistors** - For current limiting (typically 220Ω, 1kΩ, 10kΩ)
+- **Capacitors** - For filtering and stabilization
+- **Transistors** - For switching and amplification
+- **Diodes** - For protection circuits
+- **Breadboard** - For prototyping without soldering
+- **Jumper Wires** - Male-to-male, male-to-female, female-to-female
+
+## Power Components
+
+- **Power supply** - 9V battery, USB cable, or AC adapter
+- **Voltage regulators** - For stable power supply
+- **Battery holders**
+
+## Communication Modules
+
+- **Bluetooth modules** (HC-05, HC-06)
+- **WiFi modules** (ESP8266)
+- **GSM modules**
+- **RF modules**
+
+
+Parsed: {'original_text': 'Design a board for arduino uno with using components\n\n## Input Components\n\n- **Push Buttons** - For user input and control\n- **Potentiometers** - Variable resistors for analog input\n- **Sensors:**\n  - Temperature sensors (DHT11, DHT22, LM35)\n  - Ultrasonic sensors (HC-SR04) - for distance measurement\n  - PIR motion sensors\n  - Light sensors (LDR, photodiodes)\n  - Gas/smoke sensors (MQ series)\n  - Sound sensors\n  - Touch sensors\n  - Accelerometers and gyroscopes (MPU6050)\n\n## Output Components\n\n- **LEDs** - Single color or RGB\n- **LCD Displays** - 16x2 or 20x4 character displays\n- **OLED Displays** - Small graphical displays\n- **Buzzers** - For sound output\n- **Motors:**\n  - DC motors\n  - Servo motors\n  - Stepper motors\n- **Relays** - For controlling high-voltage devices\n- **7-Segment Displays**\n\n## Essential Electronic Components\n\n- **Resistors** - For current limiting (typically 220Ω, 1kΩ, 10kΩ)\n- **Capacitors** - For filtering and stabilization\n- **Transistors** - For switching and amplification\n- **Diodes** - For protection circuits\n- **Breadboard** - For prototyping without soldering\n- **Jumper Wires** - Male-to-male, male-to-female, female-to-female\n\n## Power Components\n\n- **Power supply** - 9V battery, USB cable, or AC adapter\n- **Voltage regulators** - For stable power supply\n- **Battery holders**\n\n## Communication Modules\n\n- **Bluetooth modules** (HC-05, HC-06)\n- **WiFi modules** (ESP8266)\n- **GSM modules**\n- **RF modules**\n\n', 'components': [{'name': 'Push Buttons', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Potentiometers', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Sensors:', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Temperature sensors (DHT11, DHT22, LM35)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Ultrasonic sensors (HC', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'PIR motion sensors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Light sensors (LDR, photodiodes)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Gas/smoke sensors (MQ series)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Sound sensors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Touch sensors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Accelerometers and gyroscopes (MPU6050)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'LEDs', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'LCD Displays', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'OLED Displays', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Buzzers', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Motors:', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'DC motors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Servo motors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Stepper motors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Relays', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Display', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Resistors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Capacitors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Transistors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Diodes', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Breadboard', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Jumper Wires', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Power supply', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Voltage regulators', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Battery holders', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Bluetooth modules (HC', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'WiFi modules (ESP8266)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'GSM modules', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'RF modules', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'arduino', 'quantity': 1, 'type': 'ADJ'}, {'name': 'Buttons', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Sensors', 'quantity': 1, 'type': 'NOUN'}, {'name': 'DHT11', 'quantity': 1, 'type': 'PROPN'}, {'name': 'DHT22', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LM35', 'quantity': 1, 'type': 'PROPN'}, {'name': 'PIR', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LDR', 'quantity': 1, 'type': 'PROPN'}, {'name': 'MQ', 'quantity': 1, 'type': 'PROPN'}, {'name': 'MPU6050', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LCD', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Displays', 'quantity': 1, 'type': 'NOUN'}, {'name': 'OLED', 'quantity': 1, 'type': 'ADJ'}, {'name': 'Motors', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Segment', 'quantity': 1, 'type': 'NOUN'}, {'name': 'switching', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Jumper', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Wires', 'quantity': 1, 'type': 'PROPN'}, {'name': 'battery', 'quantity': 1, 'type': 'NOUN'}, {'name': 'regulators', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Modules', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Bluetooth', 'quantity': 1, 'type': 'NOUN'}, {'name': 'WiFi', 'quantity': 1, 'type': 'NOUN'}, {'name': 'ESP8266', 'quantity': 1, 'type': 'INTJ'}, {'name': 'GSM', 'quantity': 1, 'type': 'PROPN'}, {'name': 'RF', 'quantity': 1, 'type': 'NOUN'}], 'connections': []}
+--- Request ---
+Prompt: build an simple RC car mother board PCB Core ICs
+Motor Driver IC - L293D or L298N (controls the motors)
+
+L293D - Dual H-Bridge, up to 600mA per channel
+L298N - Dual H-Bridge, up to 2A per channel
+
+RF Receiver Module - 433MHz or 2.4GHz receiver chip to receive signals from the remote
+Microcontroller (optional) - ATmega328 or similar for programmable control
+Power Components
+Voltage Regulator - 7805 (5V output) for powering the logic circuits
+Diodes - 1N4007 for reverse polarity protection
+Capacitors:
+
+100µF electrolytic capacitors for power smoothing
+0.1µF ceramic capacitors for decoupling
+
+Passive Components
+Resistors:
+
+10kΩ - Pull-up/pull-down resistors
+220Ω - LED current limiting
+1kΩ - General purpose
+
+LEDs - For power indication and status (red, green)
+Connection Components
+Screw Terminals - For motor connections
+Pin Headers - For receiver module connection
+DC Jack - For battery input
+Switches - Power on/off switch
+Motors (Connected to PCB)
+DC Motors - 2 or 4 motors (for wheels)
+
+Typical: 3V-6V DC geared motors
+
+Battery
+Power Source - 9V battery or 7.4V Li-Po battery (connects to PCB)
+Parsed: {'original_text': 'build an simple RC car mother board PCB Core ICs\nMotor Driver IC - L293D or L298N (controls the motors)\n\nL293D - Dual H-Bridge, up to 600mA per channel\nL298N - Dual H-Bridge, up to 2A per channel\n\nRF Receiver Module - 433MHz or 2.4GHz receiver chip to receive signals from the remote\nMicrocontroller (optional) - ATmega328 or similar for programmable control\nPower Components\nVoltage Regulator - 7805 (5V output) for powering the logic circuits\nDiodes - 1N4007 for reverse polarity protection\nCapacitors:\n\n100µF electrolytic capacitors for power smoothing\n0.1µF ceramic capacitors for decoupling\n\nPassive Components\nResistors:\n\n10kΩ - Pull-up/pull-down resistors\n220Ω - LED current limiting\n1kΩ - General purpose\n\nLEDs - For power indication and status (red, green)\nConnection Components\nScrew Terminals - For motor connections\nPin Headers - For receiver module connection\nDC Jack - For battery input\nSwitches - Power on/off switch\nMotors (Connected to PCB)\nDC Motors - 2 or 4 motors (for wheels)\n\nTypical: 3V-6V DC geared motors\n\nBattery\nPower Source - 9V battery or 7.4V Li-Po battery (connects to PCB)', 'components': [{'name': 'Motor', 'quantity': 1, 'type': 'PROPN'}, {'name': 'motors', 'quantity': 1, 'type': 'NOUN'}, {'name': 'RF', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Module', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Regulator', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Diodes', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Capacitors', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Resistors', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LED', 'quantity': 1, 'type': 'VERB'}, {'name': 'LEDs', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Headers', 'quantity': 1, 'type': 'PROPN'}, {'name': 'battery', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Switches', 'quantity': 1, 'type': 'PROPN'}, {'name': 'switch', 'quantity': 1, 'type': 'NOUN'}], 'connections': []}
+--- Request ---
+Prompt: Design a board for arduino uno with using components
+
+## Input Components
+
+- **Push Buttons** - For user input and control
+- **Potentiometers** - Variable resistors for analog input
+- **Sensors:**
+  - Temperature sensors (DHT11, DHT22, LM35)
+  - Ultrasonic sensors (HC-SR04) - for distance measurement
+  - PIR motion sensors
+  - Light sensors (LDR, photodiodes)
+  - Gas/smoke sensors (MQ series)
+  - Sound sensors
+  - Touch sensors
+  - Accelerometers and gyroscopes (MPU6050)
+
+## Output Components
+
+- **LEDs** - Single color or RGB
+- **LCD Displays** - 16x2 or 20x4 character displays
+- **OLED Displays** - Small graphical displays
+- **Buzzers** - For sound output
+- **Motors:**
+  - DC motors
+  - Servo motors
+  - Stepper motors
+- **Relays** - For controlling high-voltage devices
+- **7-Segment Displays**
+
+## Essential Electronic Components
+
+- **Resistors** - For current limiting (typically 220Ω, 1kΩ, 10kΩ)
+- **Capacitors** - For filtering and stabilization
+- **Transistors** - For switching and amplification
+- **Diodes** - For protection circuits
+- **Breadboard** - For prototyping without soldering
+- **Jumper Wires** - Male-to-male, male-to-female, female-to-female
+
+## Power Components
+
+- **Power supply** - 9V battery, USB cable, or AC adapter
+- **Voltage regulators** - For stable power supply
+- **Battery holders**
+
+## Communication Modules
+
+- **Bluetooth modules** (HC-05, HC-06)
+- **WiFi modules** (ESP8266)
+- **GSM modules**
+- **RF modules**
+
+
+Parsed: {'original_text': 'Design a board for arduino uno with using components\n\n## Input Components\n\n- **Push Buttons** - For user input and control\n- **Potentiometers** - Variable resistors for analog input\n- **Sensors:**\n  - Temperature sensors (DHT11, DHT22, LM35)\n  - Ultrasonic sensors (HC-SR04) - for distance measurement\n  - PIR motion sensors\n  - Light sensors (LDR, photodiodes)\n  - Gas/smoke sensors (MQ series)\n  - Sound sensors\n  - Touch sensors\n  - Accelerometers and gyroscopes (MPU6050)\n\n## Output Components\n\n- **LEDs** - Single color or RGB\n- **LCD Displays** - 16x2 or 20x4 character displays\n- **OLED Displays** - Small graphical displays\n- **Buzzers** - For sound output\n- **Motors:**\n  - DC motors\n  - Servo motors\n  - Stepper motors\n- **Relays** - For controlling high-voltage devices\n- **7-Segment Displays**\n\n## Essential Electronic Components\n\n- **Resistors** - For current limiting (typically 220Ω, 1kΩ, 10kΩ)\n- **Capacitors** - For filtering and stabilization\n- **Transistors** - For switching and amplification\n- **Diodes** - For protection circuits\n- **Breadboard** - For prototyping without soldering\n- **Jumper Wires** - Male-to-male, male-to-female, female-to-female\n\n## Power Components\n\n- **Power supply** - 9V battery, USB cable, or AC adapter\n- **Voltage regulators** - For stable power supply\n- **Battery holders**\n\n## Communication Modules\n\n- **Bluetooth modules** (HC-05, HC-06)\n- **WiFi modules** (ESP8266)\n- **GSM modules**\n- **RF modules**\n\n', 'components': [{'name': 'Push Buttons', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Potentiometers', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Sensors:', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Temperature sensors (DHT11, DHT22, LM35)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Ultrasonic sensors (HC', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'PIR motion sensors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Light sensors (LDR, photodiodes)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Gas/smoke sensors (MQ series)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Sound sensors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Touch sensors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Accelerometers and gyroscopes (MPU6050)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'LEDs', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'LCD Displays', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'OLED Displays', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Buzzers', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Motors:', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'DC motors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Servo motors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Stepper motors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Relays', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Display', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Resistors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Capacitors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Transistors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Diodes', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Breadboard', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Jumper Wires', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Power supply', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Voltage regulators', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Battery holders', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Bluetooth modules (HC', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'WiFi modules (ESP8266)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'GSM modules', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'RF modules', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'arduino', 'quantity': 1, 'type': 'ADJ'}, {'name': 'Buttons', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Sensors', 'quantity': 1, 'type': 'NOUN'}, {'name': 'DHT11', 'quantity': 1, 'type': 'PROPN'}, {'name': 'DHT22', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LM35', 'quantity': 1, 'type': 'PROPN'}, {'name': 'PIR', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LDR', 'quantity': 1, 'type': 'PROPN'}, {'name': 'MQ', 'quantity': 1, 'type': 'PROPN'}, {'name': 'MPU6050', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LCD', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Displays', 'quantity': 1, 'type': 'NOUN'}, {'name': 'OLED', 'quantity': 1, 'type': 'ADJ'}, {'name': 'Motors', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Segment', 'quantity': 1, 'type': 'NOUN'}, {'name': 'switching', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Jumper', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Wires', 'quantity': 1, 'type': 'PROPN'}, {'name': 'battery', 'quantity': 1, 'type': 'NOUN'}, {'name': 'regulators', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Modules', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Bluetooth', 'quantity': 1, 'type': 'NOUN'}, {'name': 'WiFi', 'quantity': 1, 'type': 'NOUN'}, {'name': 'ESP8266', 'quantity': 1, 'type': 'INTJ'}, {'name': 'GSM', 'quantity': 1, 'type': 'PROPN'}, {'name': 'RF', 'quantity': 1, 'type': 'NOUN'}], 'connections': []}
+--- Request ---
+Prompt: Design a board for arduino uno with using components
+
+## Input Components
+
+- **Push Buttons** - For user input and control
+- **Potentiometers** - Variable resistors for analog input
+- **Sensors:**
+  - Temperature sensors (DHT11, DHT22, LM35)
+  - Ultrasonic sensors (HC-SR04) - for distance measurement
+  - PIR motion sensors
+  - Light sensors (LDR, photodiodes)
+  - Gas/smoke sensors (MQ series)
+  - Sound sensors
+  - Touch sensors
+  - Accelerometers and gyroscopes (MPU6050)
+
+## Output Components
+
+- **LEDs** - Single color or RGB
+- **LCD Displays** - 16x2 or 20x4 character displays
+- **OLED Displays** - Small graphical displays
+- **Buzzers** - For sound output
+- **Motors:**
+  - DC motors
+  - Servo motors
+  - Stepper motors
+- **Relays** - For controlling high-voltage devices
+- **7-Segment Displays**
+
+## Essential Electronic Components
+
+- **Resistors** - For current limiting (typically 220Ω, 1kΩ, 10kΩ)
+- **Capacitors** - For filtering and stabilization
+- **Transistors** - For switching and amplification
+- **Diodes** - For protection circuits
+- **Breadboard** - For prototyping without soldering
+- **Jumper Wires** - Male-to-male, male-to-female, female-to-female
+
+## Power Components
+
+- **Power supply** - 9V battery, USB cable, or AC adapter
+- **Voltage regulators** - For stable power supply
+- **Battery holders**
+
+## Communication Modules
+
+- **Bluetooth modules** (HC-05, HC-06)
+- **WiFi modules** (ESP8266)
+- **GSM modules**
+- **RF modules**
+
+
+Parsed: {'original_text': 'Design a board for arduino uno with using components\n\n## Input Components\n\n- **Push Buttons** - For user input and control\n- **Potentiometers** - Variable resistors for analog input\n- **Sensors:**\n  - Temperature sensors (DHT11, DHT22, LM35)\n  - Ultrasonic sensors (HC-SR04) - for distance measurement\n  - PIR motion sensors\n  - Light sensors (LDR, photodiodes)\n  - Gas/smoke sensors (MQ series)\n  - Sound sensors\n  - Touch sensors\n  - Accelerometers and gyroscopes (MPU6050)\n\n## Output Components\n\n- **LEDs** - Single color or RGB\n- **LCD Displays** - 16x2 or 20x4 character displays\n- **OLED Displays** - Small graphical displays\n- **Buzzers** - For sound output\n- **Motors:**\n  - DC motors\n  - Servo motors\n  - Stepper motors\n- **Relays** - For controlling high-voltage devices\n- **7-Segment Displays**\n\n## Essential Electronic Components\n\n- **Resistors** - For current limiting (typically 220Ω, 1kΩ, 10kΩ)\n- **Capacitors** - For filtering and stabilization\n- **Transistors** - For switching and amplification\n- **Diodes** - For protection circuits\n- **Breadboard** - For prototyping without soldering\n- **Jumper Wires** - Male-to-male, male-to-female, female-to-female\n\n## Power Components\n\n- **Power supply** - 9V battery, USB cable, or AC adapter\n- **Voltage regulators** - For stable power supply\n- **Battery holders**\n\n## Communication Modules\n\n- **Bluetooth modules** (HC-05, HC-06)\n- **WiFi modules** (ESP8266)\n- **GSM modules**\n- **RF modules**\n\n', 'components': [{'name': 'Push Buttons', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Potentiometers', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Sensors:', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Temperature sensors (DHT11, DHT22, LM35)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Ultrasonic sensors (HC', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'PIR motion sensors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Light sensors (LDR, photodiodes)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Gas/smoke sensors (MQ series)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Sound sensors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Touch sensors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Accelerometers and gyroscopes (MPU6050)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'LEDs', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'LCD Displays', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'OLED Displays', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Buzzers', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Motors:', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'DC motors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Servo motors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Stepper motors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Relays', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Display', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Resistors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Capacitors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Transistors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Diodes', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Breadboard', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Jumper Wires', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Power supply', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Voltage regulators', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Battery holders', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Bluetooth modules (HC', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'WiFi modules (ESP8266)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'GSM modules', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'RF modules', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'arduino', 'quantity': 1, 'type': 'ADJ'}, {'name': 'Buttons', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Sensors', 'quantity': 1, 'type': 'NOUN'}, {'name': 'DHT11', 'quantity': 1, 'type': 'PROPN'}, {'name': 'DHT22', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LM35', 'quantity': 1, 'type': 'PROPN'}, {'name': 'PIR', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LDR', 'quantity': 1, 'type': 'PROPN'}, {'name': 'MQ', 'quantity': 1, 'type': 'PROPN'}, {'name': 'MPU6050', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LCD', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Displays', 'quantity': 1, 'type': 'NOUN'}, {'name': 'OLED', 'quantity': 1, 'type': 'ADJ'}, {'name': 'Motors', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Segment', 'quantity': 1, 'type': 'NOUN'}, {'name': 'switching', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Jumper', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Wires', 'quantity': 1, 'type': 'PROPN'}, {'name': 'battery', 'quantity': 1, 'type': 'NOUN'}, {'name': 'regulators', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Modules', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Bluetooth', 'quantity': 1, 'type': 'NOUN'}, {'name': 'WiFi', 'quantity': 1, 'type': 'NOUN'}, {'name': 'ESP8266', 'quantity': 1, 'type': 'INTJ'}, {'name': 'GSM', 'quantity': 1, 'type': 'PROPN'}, {'name': 'RF', 'quantity': 1, 'type': 'NOUN'}], 'connections': []}
+--- Request ---
+Prompt: Design a board for arduino uno with using components
+
+## Input Components
+
+- **Push Buttons** - For user input and control
+- **Potentiometers** - Variable resistors for analog input
+- **Sensors:**
+  - Temperature sensors (DHT11, DHT22, LM35)
+  - Ultrasonic sensors (HC-SR04) - for distance measurement
+  - PIR motion sensors
+  - Light sensors (LDR, photodiodes)
+  - Gas/smoke sensors (MQ series)
+  - Sound sensors
+  - Touch sensors
+  - Accelerometers and gyroscopes (MPU6050)
+
+## Output Components
+
+- **LEDs** - Single color or RGB
+- **LCD Displays** - 16x2 or 20x4 character displays
+- **OLED Displays** - Small graphical displays
+- **Buzzers** - For sound output
+- **Motors:**
+  - DC motors
+  - Servo motors
+  - Stepper motors
+- **Relays** - For controlling high-voltage devices
+- **7-Segment Displays**
+
+## Essential Electronic Components
+
+- **Resistors** - For current limiting (typically 220Ω, 1kΩ, 10kΩ)
+- **Capacitors** - For filtering and stabilization
+- **Transistors** - For switching and amplification
+- **Diodes** - For protection circuits
+- **Breadboard** - For prototyping without soldering
+- **Jumper Wires** - Male-to-male, male-to-female, female-to-female
+
+## Power Components
+
+- **Power supply** - 9V battery, USB cable, or AC adapter
+- **Voltage regulators** - For stable power supply
+- **Battery holders**
+
+## Communication Modules
+
+- **Bluetooth modules** (HC-05, HC-06)
+- **WiFi modules** (ESP8266)
+- **GSM modules**
+- **RF modules**
+
+
+Parsed: {'original_text': 'Design a board for arduino uno with using components\n\n## Input Components\n\n- **Push Buttons** - For user input and control\n- **Potentiometers** - Variable resistors for analog input\n- **Sensors:**\n  - Temperature sensors (DHT11, DHT22, LM35)\n  - Ultrasonic sensors (HC-SR04) - for distance measurement\n  - PIR motion sensors\n  - Light sensors (LDR, photodiodes)\n  - Gas/smoke sensors (MQ series)\n  - Sound sensors\n  - Touch sensors\n  - Accelerometers and gyroscopes (MPU6050)\n\n## Output Components\n\n- **LEDs** - Single color or RGB\n- **LCD Displays** - 16x2 or 20x4 character displays\n- **OLED Displays** - Small graphical displays\n- **Buzzers** - For sound output\n- **Motors:**\n  - DC motors\n  - Servo motors\n  - Stepper motors\n- **Relays** - For controlling high-voltage devices\n- **7-Segment Displays**\n\n## Essential Electronic Components\n\n- **Resistors** - For current limiting (typically 220Ω, 1kΩ, 10kΩ)\n- **Capacitors** - For filtering and stabilization\n- **Transistors** - For switching and amplification\n- **Diodes** - For protection circuits\n- **Breadboard** - For prototyping without soldering\n- **Jumper Wires** - Male-to-male, male-to-female, female-to-female\n\n## Power Components\n\n- **Power supply** - 9V battery, USB cable, or AC adapter\n- **Voltage regulators** - For stable power supply\n- **Battery holders**\n\n## Communication Modules\n\n- **Bluetooth modules** (HC-05, HC-06)\n- **WiFi modules** (ESP8266)\n- **GSM modules**\n- **RF modules**\n\n', 'components': [{'name': 'Push Buttons', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Potentiometers', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Sensors:', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Temperature sensors (DHT11, DHT22, LM35)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Ultrasonic sensors (HC', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'PIR motion sensors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Light sensors (LDR, photodiodes)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Gas/smoke sensors (MQ series)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Sound sensors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Touch sensors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Accelerometers and gyroscopes (MPU6050)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'LEDs', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'LCD Displays', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'OLED Displays', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Buzzers', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Motors:', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'DC motors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Servo motors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Stepper motors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Relays', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Display', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Resistors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Capacitors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Transistors', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Diodes', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Breadboard', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Jumper Wires', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Power supply', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Voltage regulators', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Battery holders', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'Bluetooth modules (HC', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'WiFi modules (ESP8266)', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'GSM modules', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'RF modules', 'quantity': 1, 'type': 'MarkdownList'}, {'name': 'arduino', 'quantity': 1, 'type': 'ADJ'}, {'name': 'Buttons', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Sensors', 'quantity': 1, 'type': 'NOUN'}, {'name': 'DHT11', 'quantity': 1, 'type': 'PROPN'}, {'name': 'DHT22', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LM35', 'quantity': 1, 'type': 'PROPN'}, {'name': 'PIR', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LDR', 'quantity': 1, 'type': 'PROPN'}, {'name': 'MQ', 'quantity': 1, 'type': 'PROPN'}, {'name': 'MPU6050', 'quantity': 1, 'type': 'PROPN'}, {'name': 'LCD', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Displays', 'quantity': 1, 'type': 'NOUN'}, {'name': 'OLED', 'quantity': 1, 'type': 'ADJ'}, {'name': 'Motors', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Segment', 'quantity': 1, 'type': 'NOUN'}, {'name': 'switching', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Jumper', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Wires', 'quantity': 1, 'type': 'PROPN'}, {'name': 'battery', 'quantity': 1, 'type': 'NOUN'}, {'name': 'regulators', 'quantity': 1, 'type': 'NOUN'}, {'name': 'Modules', 'quantity': 1, 'type': 'PROPN'}, {'name': 'Bluetooth', 'quantity': 1, 'type': 'NOUN'}, {'name': 'WiFi', 'quantity': 1, 'type': 'NOUN'}, {'name': 'ESP8266', 'quantity': 1, 'type': 'INTJ'}, {'name': 'GSM', 'quantity': 1, 'type': 'PROPN'}, {'name': 'RF', 'quantity': 1, 'type': 'NOUN'}], 'connections': []}

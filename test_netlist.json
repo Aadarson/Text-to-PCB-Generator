@@ -1,0 +1,109 @@
+{
+  "design": {
+    "source": "Text-to-PCB Generator",
+    "date": "2026-02-13",
+    "tool": "Custom AI Generator"
+  },
+  "components": [
+    {
+      "ref": "U1",
+      "value": "Arduino",
+      "footprint": "Module:Arduino_UNO_R3",
+      "quantity": 1
+    },
+    {
+      "ref": "U2",
+      "value": "L293D",
+      "footprint": "Package_DIP:DIP-16_W7.62mm",
+      "quantity": 1
+    },
+    {
+      "ref": "M3",
+      "value": "Motor",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "quantity": 2
+    },
+    {
+      "ref": "BT4",
+      "value": "Battery",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "quantity": 1
+    },
+    {
+      "ref": "D5",
+      "value": "LED",
+      "footprint": "LED_THT:LED_D5.0mm",
+      "quantity": 2
+    }
+  ],
+  "nets": [
+    {
+      "name": "GND",
+      "nodes": [
+        {
+          "ref": "U1",
+          "pin": "1"
+        },
+        {
+          "ref": "U2",
+          "pin": "1"
+        },
+        {
+          "ref": "M3",
+          "pin": "1"
+        },
+        {
+          "ref": "BT4",
+          "pin": "1"
+        },
+        {
+          "ref": "D5",
+          "pin": "1"
+        }
+      ],
+      "class": "power"
+    },
+    {
+      "name": "Net-(Motor_Out_0A)",
+      "nodes": [
+        {
+          "ref": "U2",
+          "pin": "3"
+        },
+        {
+          "ref": "M3",
+          "pin": "1"
+        }
+      ],
+      "class": "motor"
+    },
+    {
+      "name": "Net-(Motor_Out_0B)",
+      "nodes": [
+        {
+          "ref": "U2",
+          "pin": "6"
+        },
+        {
+          "ref": "M3",
+          "pin": "2"
+        }
+      ],
+      "class": "motor"
+    },
+    {
+      "name": "Net-(Batt_Pos-Driver_Power)",
+      "nodes": [
+        {
+          "ref": "BT4",
+          "pin": "2"
+        },
+        {
+          "ref": "U2",
+          "pin": "8"
+        }
+      ],
+      "class": "power"
+    }
+  ]
+}

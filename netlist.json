@@ -1,0 +1,503 @@
+{
+  "design": {
+    "source": "Text-to-PCB Generator",
+    "date": "2026-02-13",
+    "tool": "Custom AI Generator"
+  },
+  "components": [
+    {
+      "ref": "SW1",
+      "value": "Push Buttons",
+      "footprint": "Unknown_Footprint",
+      "quantity": 1
+    },
+    {
+      "ref": "R2",
+      "value": "Potentiometers",
+      "footprint": "Unknown_Footprint",
+      "quantity": 1
+    },
+    {
+      "ref": "U3",
+      "value": "Sensors:",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "quantity": 1
+    },
+    {
+      "ref": "U4",
+      "value": "Temperature sensors (DHT11, DHT22, LM35)",
+      "footprint": "Sensor:Aosong_DHT11_5.5x12.0_P2.54mm",
+      "quantity": 1
+    },
+    {
+      "ref": "U5",
+      "value": "Ultrasonic sensors (HC",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "quantity": 1
+    },
+    {
+      "ref": "U6",
+      "value": "PIR motion sensors",
+      "footprint": "Sensor:PIR_Motion_HC-SR501",
+      "quantity": 1
+    },
+    {
+      "ref": "D7",
+      "value": "Light sensors (LDR, photodiodes)",
+      "footprint": "OptoDevice:Resistor_LDR_5.0x4.1mm_P3mm_Vertical",
+      "quantity": 1
+    },
+    {
+      "ref": "U8",
+      "value": "Gas/smoke sensors (MQ series)",
+      "footprint": "Sensor:Gas_Sensor_MQ-series",
+      "quantity": 1
+    },
+    {
+      "ref": "U9",
+      "value": "Sound sensors",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "quantity": 1
+    },
+    {
+      "ref": "U10",
+      "value": "Touch sensors",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "quantity": 1
+    },
+    {
+      "ref": "U11",
+      "value": "Accelerometers and gyroscopes (MPU6050)",
+      "footprint": "Sensor_Motion:InvenSense_MPU-6050_QFN-24_4x4mm_P0.5mm",
+      "quantity": 1
+    },
+    {
+      "ref": "D12",
+      "value": "LEDs",
+      "footprint": "LED_THT:LED_D5.0mm",
+      "quantity": 1
+    },
+    {
+      "ref": "U13",
+      "value": "LCD Displays",
+      "footprint": "Display:LCD-016N002L",
+      "quantity": 1
+    },
+    {
+      "ref": "D14",
+      "value": "OLED Displays",
+      "footprint": "Display:OLED-0.96-128x64_I2C",
+      "quantity": 1
+    },
+    {
+      "ref": "U15",
+      "value": "Buzzers",
+      "footprint": "Unknown_Footprint",
+      "quantity": 1
+    },
+    {
+      "ref": "M16",
+      "value": "Motors:",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "quantity": 1
+    },
+    {
+      "ref": "M17",
+      "value": "DC motors",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "quantity": 1
+    },
+    {
+      "ref": "M18",
+      "value": "Servo motors",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "quantity": 1
+    },
+    {
+      "ref": "M19",
+      "value": "Stepper motors",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "quantity": 1
+    },
+    {
+      "ref": "U20",
+      "value": "Relays",
+      "footprint": "Unknown_Footprint",
+      "quantity": 1
+    },
+    {
+      "ref": "U21",
+      "value": "Display",
+      "footprint": "Display:LCD-016N002L",
+      "quantity": 1
+    },
+    {
+      "ref": "R22",
+      "value": "Resistors",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "quantity": 1
+    },
+    {
+      "ref": "C23",
+      "value": "Capacitors",
+      "footprint": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm",
+      "quantity": 1
+    },
+    {
+      "ref": "U24",
+      "value": "Transistors",
+      "footprint": "Unknown_Footprint",
+      "quantity": 1
+    },
+    {
+      "ref": "D25",
+      "value": "Diodes",
+      "footprint": "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal",
+      "quantity": 1
+    },
+    {
+      "ref": "U26",
+      "value": "Breadboard",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+      "quantity": 1
+    },
+    {
+      "ref": "J27",
+      "value": "Jumper Wires",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical",
+      "quantity": 1
+    },
+    {
+      "ref": "U28",
+      "value": "Power supply",
+      "footprint": "Unknown_Footprint",
+      "quantity": 1
+    },
+    {
+      "ref": "U29",
+      "value": "Voltage regulators",
+      "footprint": "Package_TO_SOT_THT:TO-220-3_Vertical",
+      "quantity": 1
+    },
+    {
+      "ref": "BT30",
+      "value": "Battery holders",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "quantity": 1
+    },
+    {
+      "ref": "U31",
+      "value": "Bluetooth modules (HC",
+      "footprint": "RF_Module:HC-05",
+      "quantity": 1
+    },
+    {
+      "ref": "U32",
+      "value": "WiFi modules (ESP8266)",
+      "footprint": "RF_Module:ESP-12E",
+      "quantity": 1
+    },
+    {
+      "ref": "U33",
+      "value": "GSM modules",
+      "footprint": "RF_Module:SIM800L",
+      "quantity": 1
+    },
+    {
+      "ref": "U34",
+      "value": "RF modules",
+      "footprint": "RF_Module:NRF24L01_Breakout",
+      "quantity": 1
+    },
+    {
+      "ref": "U35",
+      "value": "arduino",
+      "footprint": "Module:Arduino_UNO_R3",
+      "quantity": 1
+    },
+    {
+      "ref": "SW36",
+      "value": "Buttons",
+      "footprint": "Unknown_Footprint",
+      "quantity": 1
+    },
+    {
+      "ref": "U37",
+      "value": "Sensors",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "quantity": 1
+    },
+    {
+      "ref": "U38",
+      "value": "DHT11",
+      "footprint": "Sensor:Aosong_DHT11_5.5x12.0_P2.54mm",
+      "quantity": 1
+    },
+    {
+      "ref": "U39",
+      "value": "DHT22",
+      "footprint": "Sensor:Aosong_DHT11_5.5x12.0_P2.54mm",
+      "quantity": 1
+    },
+    {
+      "ref": "U40",
+      "value": "LM35",
+      "footprint": "Unknown_Footprint",
+      "quantity": 1
+    },
+    {
+      "ref": "U41",
+      "value": "PIR",
+      "footprint": "Sensor:PIR_Motion_HC-SR501",
+      "quantity": 1
+    },
+    {
+      "ref": "U42",
+      "value": "LDR",
+      "footprint": "OptoDevice:Resistor_LDR_5.0x4.1mm_P3mm_Vertical",
+      "quantity": 1
+    },
+    {
+      "ref": "U43",
+      "value": "MQ",
+      "footprint": "Sensor:Gas_Sensor_MQ-series",
+      "quantity": 1
+    },
+    {
+      "ref": "U44",
+      "value": "MPU6050",
+      "footprint": "Sensor_Motion:InvenSense_MPU-6050_QFN-24_4x4mm_P0.5mm",
+      "quantity": 1
+    },
+    {
+      "ref": "U45",
+      "value": "LCD",
+      "footprint": "Display:LCD-016N002L",
+      "quantity": 1
+    },
+    {
+      "ref": "U46",
+      "value": "Displays",
+      "footprint": "Display:LCD-016N002L",
+      "quantity": 1
+    },
+    {
+      "ref": "D47",
+      "value": "OLED",
+      "footprint": "Display:OLED-0.96-128x64_I2C",
+      "quantity": 1
+    },
+    {
+      "ref": "M48",
+      "value": "Motors",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "quantity": 1
+    },
+    {
+      "ref": "U49",
+      "value": "Segment",
+      "footprint": "Display_7Segment:7SegmentLED_LTS-6960HR",
+      "quantity": 1
+    },
+    {
+      "ref": "SW50",
+      "value": "switching",
+      "footprint": "Button_Switch_THT:SW_Slide_1P2T_SS12D06_Volz",
+      "quantity": 1
+    },
+    {
+      "ref": "J51",
+      "value": "Jumper",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical",
+      "quantity": 1
+    },
+    {
+      "ref": "U52",
+      "value": "Wires",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical",
+      "quantity": 1
+    },
+    {
+      "ref": "BT53",
+      "value": "battery",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "quantity": 1
+    },
+    {
+      "ref": "U54",
+      "value": "regulators",
+      "footprint": "Package_TO_SOT_THT:TO-220-3_Vertical",
+      "quantity": 1
+    },
+    {
+      "ref": "U55",
+      "value": "Modules",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "quantity": 1
+    },
+    {
+      "ref": "U56",
+      "value": "Bluetooth",
+      "footprint": "RF_Module:HC-05",
+      "quantity": 1
+    },
+    {
+      "ref": "U57",
+      "value": "WiFi",
+      "footprint": "RF_Module:ESP-12E",
+      "quantity": 1
+    },
+    {
+      "ref": "U58",
+      "value": "ESP8266",
+      "footprint": "RF_Module:ESP-12E",
+      "quantity": 1
+    },
+    {
+      "ref": "U59",
+      "value": "GSM",
+      "footprint": "RF_Module:SIM800L",
+      "quantity": 1
+    },
+    {
+      "ref": "U60",
+      "value": "RF",
+      "footprint": "RF_Module:NRF24L01_Breakout",
+      "quantity": 1
+    }
+  ],
+  "nets": [
+    {
+      "name": "Net-(D12-R22)",
+      "nodes": [
+        {
+          "ref": "D12",
+          "pin": "2"
+        },
+        {
+          "ref": "R22",
+          "pin": "1"
+        }
+      ],
+      "class": "signal"
+    },
+    {
+      "name": "GND",
+      "nodes": [
+        {
+          "ref": "U3",
+          "pin": "1"
+        },
+        {
+          "ref": "U4",
+          "pin": "1"
+        },
+        {
+          "ref": "U5",
+          "pin": "1"
+        },
+        {
+          "ref": "U6",
+          "pin": "1"
+        },
+        {
+          "ref": "D7",
+          "pin": "1"
+        },
+        {
+          "ref": "U8",
+          "pin": "1"
+        },
+        {
+          "ref": "U9",
+          "pin": "1"
+        },
+        {
+          "ref": "U10",
+          "pin": "1"
+        },
+        {
+          "ref": "D12",
+          "pin": "1"
+        },
+        {
+          "ref": "D14",
+          "pin": "1"
+        },
+        {
+          "ref": "M16",
+          "pin": "1"
+        },
+        {
+          "ref": "M17",
+          "pin": "1"
+        },
+        {
+          "ref": "M18",
+          "pin": "1"
+        },
+        {
+          "ref": "M19",
+          "pin": "1"
+        },
+        {
+          "ref": "C23",
+          "pin": "1"
+        },
+        {
+          "ref": "U29",
+          "pin": "1"
+        },
+        {
+          "ref": "BT30",
+          "pin": "1"
+        },
+        {
+          "ref": "U31",
+          "pin": "1"
+        },
+        {
+          "ref": "U32",
+          "pin": "1"
+        },
+        {
+          "ref": "U33",
+          "pin": "1"
+        },
+        {
+          "ref": "U34",
+          "pin": "1"
+        },
+        {
+          "ref": "U35",
+          "pin": "1"
+        },
+        {
+          "ref": "U37",
+          "pin": "1"
+        },
+        {
+          "ref": "D47",
+          "pin": "1"
+        },
+        {
+          "ref": "M48",
+          "pin": "1"
+        },
+        {
+          "ref": "BT53",
+          "pin": "1"
+        },
+        {
+          "ref": "U54",
+          "pin": "1"
+        },
+        {
+          "ref": "U55",
+          "pin": "1"
+        }
+      ],
+      "class": "power"
+    }
+  ]
+}

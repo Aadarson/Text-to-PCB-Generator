@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-to-PCB Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --card-bg: #161b22;
+            --text-color: #c9d1d9;
+            --accent-color: #58a6ff;
+            --border-color: #30363d;
+            --success-color: #238636;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            color: #ffffff;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #8b949e;
+            margin-bottom: 40px;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        textarea {
+            background-color: #0d1117;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: var(--text-color);
+            padding: 16px;
+            font-family: inherit;
+            font-size: 16px;
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: var(--accent-color);
+        }
+
+        button {
+            background-color: var(--success-color);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.2s;
+            align-self: flex-start;
+        }
+
+        button:hover {
+            background-color: #2ea043;
+        }
+
+        button:disabled {
+            background-color: #30363d;
+            cursor: not-allowed;
+            color: #8b949e;
+        }
+
+        .status {
+            margin-top: 16px;
+            font-size: 14px;
+            color: var(--accent-color);
+            display: none;
+        }
+
+        #result-section {
+            display: none;
+        }
+
+        .component-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 16px;
+        }
+
+        .component-item {
+            background-color: #21262d;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 12px;
+        }
+
+        .component-name {
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 4px;
+            display: block;
+        }
+
+        .component-detail {
+            font-size: 13px;
+            color: #8b949e;
+        }
+
+        .log-container {
+            background-color: #0d1117;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 12px;
+            font-family: 'Consolas', monospace;
+            font-size: 13px;
+            color: #8b949e;
+            max-height: 200px;
+            overflow-y: auto;
+            margin-top: 20px;
+        }
+
+        .log-entry {
+            margin-bottom: 4px;
+            border-bottom: 1px solid #21262d;
+            padding-bottom: 2px;
+        }
+
+        .download-btn {
+            background-color: var(--accent-color);
+            color: white;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+            text-align: center;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: background-color 0.2s;
+        }
+
+        .download-btn:hover {
+            background-color: #1f6feb;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Text-to-PCB Generator</h1>
+        <p class="subtitle">Describe your circuit and let AI generate the PCB.</p>
+
+        <div class="card">
+            <div class="input-group">
+                <label for="prompt">Circuit Description</label>
+                <textarea id="prompt"
+                    placeholder='Example: "Design a power supply with LM7805 and 2 capacitors. Connect LM7805 to capacitor."'></textarea>
+                <button id="generateBtn" onclick="generatePCB()">Generate PCB</button>
+                <div id="status" class="status">Processing request...</div>
+            </div>
+        </div>
+
+        <div id="result-section" class="card">
+            <h2>Result</h2>
+
+            <h3>Components Detected</h3>
+            <ul id="components-list" class="component-list">
+                <!-- Components will be populated here -->
+            </ul>
+
+            <div id="download-container">
+                <!-- Download button will appear here -->
+            </div>
+
+            <h3>Process Logs</h3>
+            <div id="logs" class="log-container">
+                <!-- Logs will appear here -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        async function generatePCB() {
+            const prompt = document.getElementById('prompt').value;
+            if (!prompt) return;
+
+            const btn = document.getElementById('generateBtn');
+            const status = document.getElementById('status');
+            const resultSection = document.getElementById('result-section');
+            const componentsList = document.getElementById('components-list');
+            const logsContainer = document.getElementById('logs');
+            const downloadContainer = document.getElementById('download-container');
+
+            // Reset UI
+            btn.disabled = true;
+            status.style.display = 'block';
+            status.textContent = 'Parsing requirements and generating layout...';
+            resultSection.style.display = 'none';
+            componentsList.innerHTML = '';
+            logsContainer.innerHTML = '';
+            downloadContainer.innerHTML = '';
+
+            try {
+                const response = await fetch('/generate', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ prompt: prompt }),
+                });
+
+                if (!response.ok) {
+                    throw new Error(`API Error: ${response.statusText}`);
+                }
+
+                const data = await response.json();
+
+                // Handle Status
+                if (data.status === 'warning') {
+                    status.textContent = `Warning: ${data.message}`;
+                    status.style.color = '#d29922'; // Github Warning Orange
+                    status.style.display = 'block';
+                } else {
+                    status.style.display = 'none';
+                }
+
+                // Show Results
+                resultSection.style.display = 'block';
+
+                // Populate Components
+                const components = data.parsed_data.components || [];
+                components.forEach(comp => {
+                    const li = document.createElement('li');
+                    li.className = 'component-item';
+                    li.innerHTML = `
+                        <span class="component-name">${comp.quantity}x ${comp.name}</span>
+                        <span class="component-detail">Type: ${comp.type}</span>
+                    `;
+                    componentsList.appendChild(li);
+                });
+
+                // Populate Logs
+                const logs = data.logs || [];
+                logs.forEach(log => {
+                    const div = document.createElement('div');
+                    div.className = 'log-entry';
+                    div.textContent = `> ${log}`;
+                    logsContainer.appendChild(div);
+                });
+
+                // Show Download Button
+                // Show Download Button
+                if (data.download_url) {
+                    const link = document.createElement('a');
+                    link.href = data.download_url;
+                    link.className = 'download-btn';
+                    link.style.marginRight = '12px';
+                    link.textContent = 'Download .kicad_pcb';
+                    downloadContainer.appendChild(link);
+                }
+
+                if (data.gerber_url) {
+                    const link = document.createElement('a');
+                    link.href = data.gerber_url;
+                    link.className = 'download-btn';
+                    link.style.backgroundColor = '#238636'; // Success Green
+                    link.textContent = 'Download Gerbers (.zip)';
+                    downloadContainer.appendChild(link);
+                }
+
+            } catch (error) {
+                status.textContent = `Error: ${error.message}`;
+                status.style.color = '#da3633';
+            } finally {
+                btn.disabled = false;
+            }
+        }
+    </script>
+</body>
+
+</html>
