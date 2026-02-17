@@ -15,7 +15,7 @@ WORKDIR /app
 # Copy requirements and install
 COPY requirements.txt .
 # Use system pip or create venv (system pip is fine in container)
-RUN pip3 install --no-cache-dir -r requirements.txt
+RUN pip3 install --no-cache-dir -r requirements.txt --break-system-packages
 RUN python3 -m spacy download en_core_web_sm
 
 
