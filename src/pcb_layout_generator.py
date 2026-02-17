@@ -13,7 +13,13 @@ def generate_gerbers(pcb_path: str, output_dir: str) -> bool:
     
     # Path to kicad-cli (Assuming recognized in PATH or hardcoded for this env)
     # We found it in C:\Program Files\KiCad\9.0\bin\kicad-cli.exe
-    kicad_cli = r"C:\Program Files\KiCad\9.0\bin\kicad-cli.exe"
+    # Find kicad-cli automatically
+    kicad_cli = shutil.which("kicad-cli")
+
+    if not kicad_cli:
+      print("Error: kicad-cli not found in PATH")
+      return False
+
     
     if not os.path.exists(kicad_cli):
         print(f"Error: kicad-cli not found at {kicad_cli}")
